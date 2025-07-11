@@ -20,7 +20,7 @@ export default function WeatherApp() {
     }
     return (
         <div style={{ textAlign: "center" }}>
-            <h1 style={{fontFamily: '"Gill Sans Extrabold", sans-serif'}}><u>Weather App by delta</u></h1>
+            <h1 style={{fontFamily: '"Gill Sans Extrabold", sans-serif'}}><u>Weather App</u></h1>
             <SearchBox updateInfo={updateInfo} />
             <InfoBox info={weatherInfo} />
         </div>
