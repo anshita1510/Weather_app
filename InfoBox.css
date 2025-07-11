@@ -1,0 +1,28 @@
+.info-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.weather-card {
+  transition: transform 0.3s ease-in-out;
+  width: 300px;
+}
+
+.weather-card:hover {
+  transform: scale(1.03);
+}
+
+.city-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight:bolder;
+font-family: "Gill Sans Extrabold", sans-serif;
+  
+}
+
+.weather-details {
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
